@@ -1,0 +1,121 @@
+ohn is creating a Java program to manage employee information using inheritance. The program has a base class Employee and derived classes Manager, Developer, and Intern, each with specific attributes. Users input employee details, and the program creates instances of the respective classes based on the role. Finally, the program prints the details of each employee, showcasing the use of inheritance for streamlined management and display of employee data.
+
+Input format :
+The first line contains an integer n, the number of employees.
+
+The next n lines each contain the details of an employee in the format:
+
+<Role> <Name> <Age> <Salary> [<additional attributes>]
+
+<Role> can be Manager, Developer, or Intern.
+
+<Name> is a string representing the employee's name.
+
+<Age> is an integer representing the employee's age.
+
+<Salary> is a float representing the employee's salary.
+
+<additional attributes> are specific to the role.
+
+For Manager: <TeamSize> (integer)
+
+For Developer: <ProgrammingLanguage> (string)
+
+For Intern: <DurationMonths> (integer)
+
+Output format :
+For each employee, output their details in the format.
+
+Role: <Role>, Name: <Name>, Age: <Age>, Salary: <Salary>, <Role-specific details>
+
+For Manager: TeamSize: <TeamSize>
+
+For Developer: ProgrammingLanguage: <ProgrammingLanguage>
+
+For Intern: DurationMonths: <DurationMonths>
+
+Code constraints :
+The input data will not exceed 100 employees.
+
+Name length will not exceed 50 characters.
+
+Age will be a positive integer less than 100.
+
+Salary will be a positive float.
+
+TeamSize, if applicable, will be a positive integer less than 50.
+
+ProgrammingLanguage will be a string not exceeding 20 characters.
+
+DurationMonths, if applicable, will be a positive integer less than 24.
+
+Sample test cases :
+Input 1 :
+2
+Manager Carol 50 120000 15
+Developer Dave 25 90000 Python
+Output 1 :
+Role: Manager, Name: Carol, Age: 50, Salary: 120000.0, TeamSize: 15
+Role: Developer, Name: Dave, Age: 25, Salary: 90000.0, ProgrammingLanguage: Python
+Input 2 :
+3
+Manager Grace 55 150000 20
+Developer Henry 28 85000 Ruby
+Intern Ivy 20 15000 12
+Output 2 :
+Role: Manager, Name: Grace, Age: 55, Salary: 150000.0, TeamSize: 20
+Role: Developer, Name: Henry, Age: 28, Salary: 85000.0, ProgrammingLanguage: Ruby
+Role: Intern, Name: Ivy, Age: 20, Salary: 15000.0, DurationMonths: 12
+Note :
+The program will be evaluated only after the “Submit Code” is clicked.
+Extra spaces and new line characters in the program output will result in the failure of the test case.
+Marks : 10
+Negative Marks : 0
+Mano is working in the XYZ company. In this company, there are N stairs. Mano is standing at the bottom and wants to reach the top. Mano can climb either 1 stair or 2 stairs at a time. Your task is to count the number of ways, that Mano can reach the top (order does not matter).
+
+
+
+Note: Order does not matter i.e N = 4 {1 2 1},{2 1 1},{1 1 2} are considered same.
+
+Input format :
+The input consists of an integer N.
+
+Output format :
+The output prints the number of possible ways to reach the Nth stair.
+
+Code constraints :
+1 <= N <= 1000
+
+Sample test cases :
+Input 1 :
+4
+Output 1 :
+3
+Note :
+The program will be evaluated only after the “Submit Code” is clicked.
+Extra spaces and new line characters in the program output will result in the failure of the test case.
+Marks : 10
+Negative Marks : 0
+Adam wants to find the non-decreasing number. A non-decreasing number is a number whose digits are in non-decreasing order such as 11,12,22,34,33 etc., 
+
+
+
+Given a number n which is the length of the number, help him to print the count of all n digit numbers with the digits in non-decreasing order.
+
+Input format :
+The input consists of an integer n.
+
+Output format :
+The output prints the count of all n-digit numbers with the digits in non-decreasing order.
+
+Code constraints :
+1 < n < 100
+
+Sample test cases :
+Input 1 :
+5
+Output 1 :
+2002
+Note :
+The program will be evaluated only after the “Submit Code” is clicked.
+Extra spaces and new line characters in the program output will result in the failure of the test case.
